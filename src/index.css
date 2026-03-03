@@ -1,0 +1,12 @@
+
+
+/* Your font (Outfit) */
+@import "tailwindcss";
+
+body {
+  font-family: 'Outfit', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Young Serif', serif;
+}
