@@ -16,20 +16,43 @@ function App() {
         vegetables, or meat.
         </p> 
         
-        <p>Preparation Time </p>
-          <p>. Total : Aproximately 10 minutes</p>
-          <p>. Preparation 5 minutes </p>
-          <p>.Cooking : 5 minutes</p>
+        <div className='bg-rose-50 mt-6 p-5 rounded-lg'>
+          <h2 className='text-rose-800 font-semibold'>Preparation Time </h2>
+          <ul className='list-disc list-inside marker:text-[hsl(332,51%,32%)]'>
+            <li><span className='font-semibold'>
+              Total </span> 
+            : Aproximately 10 minutes
+            </li>
+            <li><span className='font-semibold'>
+              Preparation</span>
+             : 5 minutes 
+             </li>
+            <li><span className='font-semibold'>
+              Cooking</span> 
+              : 5 minutes
+            </li>
+          </ul>
+        </div>
 
-        <p>Ingredients</p>
-          <p>. 2-3 large egss</p>
-          <p>. Salt to taste</p>
+        <section className='mt-6' >
+          <h2 className='text-2xl  text-[hsl(14,45%,36%)]
+           '>Ingredients </h2>
 
-        <p>. 1 tablespoon of butter or oil</p>
-        <p>optional fillings,cheese,diced vegetables,cooked meats,herbs</p>.
+          <ul className='mt-4 list-disc list-inside marker:text-[hsl(14,45%,36%)]'>
+           <li>2-3 large eggs</li>
+           <li>Salt to taste</li>
+           <li>Pepper, to taste </li>
+           <li>1 tablespoon of butter or oil</li>
+           <li>optional fillings, cheese, diced vegetables, cooked meats, herbs</li>
+          </ul>
+        </section>
 
-        <p>Instructions</p>
-        <p>1. Beat the eggs: In a bowl, beat the eggs with pinch salt and pepper until they are well mixed.You can add a tablespoon of water or milk for a flutter texture.</p>
+        <hr className="border-[hsl(30,18%,87%)] my-6" />
+
+        
+        <section>
+          <h2 className='text-2xl  text-[hsl(14,45%,36%)]'>Instructions</h2>
+          <p>1. Beat the eggs: In a bowl, beat the eggs with pinch salt and pepper until they are well mixed.You can add a tablespoon of water or milk for a flutter texture.</p>
 
 
         <p>2. Heat the pan: Place a non-stick fryng pan over medium heat and add butter or oil.</p>
@@ -38,9 +61,10 @@ function App() {
 
         <p>4. Add the fillings(optional): When the eggs brgin to set at the edges but are still slightly runny in the middle,sprinkle your chosen fillings over one half of the omelette</p>
 
-        <p>Fold and serve : As the omelette continues to cook, carefully lift one edge  and fold it over tje fillings.Let it cook for anothe minute,then slide it onto a plate.
+        <p>Fold and serve : As the omelette continues to cook, carefully lift one edge  and fold it over tje fillings.Let it cook for anothe minute,then slide it onto a plate.</p>
 
-          <p>Enjoy: Serve hot with additional salt and pepper kif needed.
+          <p>Enjoy: Serve hot with additional salt and pepper kif needed.</p>
+        </section>
 
           <p>Nutrition</p>
           <p>The table below shows nutritional values per serving without the additional fillings.</p>
@@ -50,8 +74,8 @@ function App() {
            <p>Protein       2og</p>
            <p>Fat           22g</p>
 
-          </p>
-        </p>
+          
+        
 
       </section>
      </div>
